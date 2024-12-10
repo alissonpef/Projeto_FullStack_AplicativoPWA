@@ -1,0 +1,18 @@
+{
+  "cwd": "/home/dennis/UFSC/programacao_web/trabalho_2/frontend",
+  "type": [
+    "pwa"
+  ],
+  "name": "Biscoitos X",
+  "framework": "react",
+  "template": "blank",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
