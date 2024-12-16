@@ -29,6 +29,6 @@ root.render(React.createElement(App));
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
     .register("/service-worker.js")
-    .then(() => console.log("Service Worker registered"))
-    .catch((error) => console.error("Service Worker registration failed:", error));
+    .then(() => console.log("Service Worker registrado com sucesso."))
+    .catch((error) => console.error("Falha ao registrar o Service Worker:", error));
 }

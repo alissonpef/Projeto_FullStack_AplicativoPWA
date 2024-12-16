@@ -34,7 +34,7 @@ const LoginPage = ({ f7router }) => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:3000/login", {
+      const response = await fetch("/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

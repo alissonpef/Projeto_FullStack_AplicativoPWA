@@ -42,7 +42,7 @@ const AddQRCodePage = ({ f7router }) => {
     }
 
     try {
-      const response = await fetch("http://localhost:3000/account/qrcodes/add", {
+      const response = await fetch("/api/account/qrcodes/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -52,7 +52,7 @@ const HomePage = ({ f7router }) => {
       return;
     }
     try {
-      const response = await fetch("http://localhost:3000/logout", {
+      const response = await fetch("/api/logout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -104,7 +104,7 @@ const HomePage = ({ f7router }) => {
       return;
     }
 
-    const response = await fetch("http://localhost:3000/account/push/register", {
+    const response = await fetch("/api/account/push/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

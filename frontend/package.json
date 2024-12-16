@@ -18,6 +18,7 @@
     "last 5 Firefox versions"
   ],
   "dependencies": {
+    "ajv": "^8.17.1",
     "dom7": "^4.0.6",
     "framework7": "^8.3.4",
     "framework7-icons": "^5.0.5",

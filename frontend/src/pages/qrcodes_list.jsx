@@ -28,7 +28,7 @@ const ListQRCodesPage = ({ f7router }) => {
       }
 
       try {
-        const response = await fetch("http://localhost:3000/account/qrcodes/list", {
+        const response = await fetch("/api/account/qrcodes/list", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
