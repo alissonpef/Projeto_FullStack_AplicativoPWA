@@ -4,6 +4,18 @@
 
 Este projeto consiste no desenvolvimento de um **aplicativo PWA** (Progressive Web App) para cadastro e gerenciamento de **QR-Codes**. O sistema foi projetado para atender às necessidades de uma empresa de biscoitos, permitindo que os clientes registrem os QR-Codes das embalagens dos produtos, acompanhem os códigos cadastrados e recebam **notificações push** sobre promoções e sorteios.
 
+---
+
+## 👥 Integrantes do Projeto
+
+- **Alisson Pereira Ferreira**
+- **Dennis Paul Paz Lopez**
+
+**Universidade Federal de Santa Catarina (UFSC) – Campus Araranguá**  
+Caixa Postal 88.905-120 – Araranguá – SC – Brasil
+
+---
+
 ### Cenário
 
 - Os clientes podem cadastrar diversos QR-Codes diretamente no aplicativo.
